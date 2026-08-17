@@ -1,10 +1,12 @@
-/* Hide search bar */
+/* Hide search bar everywhere */
 #search-icon,
 .search-icon,
 #search,
 .navbar-search,
 [id*="search"],
-.navbar .search {
+[class*="search"],
+.navbar .search,
+li.search {
   display: none !important;
 }
 
