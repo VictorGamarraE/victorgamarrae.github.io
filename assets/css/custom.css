@@ -6,7 +6,10 @@
 [id*="search"],
 [class*="search"],
 .navbar .search,
-li.search {
+li.search,
+.navbar li:has(.fa-magnifying-glass),
+.navbar li:has(kbd),
+.navbar kbd {
   display: none !important;
 }
 
