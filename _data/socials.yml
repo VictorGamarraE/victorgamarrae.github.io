@@ -4,4 +4,4 @@
 cv_pdf: /assets/pdf/cv.pdf # path to your CV PDF file
 email: vjg34@cornell.edu # your email address
 scholar_userid: U3nodb0AAAAJ # your Google Scholar ID
-twitter_username: VIctorGamarraE # your Twitter username
+rss_icon: false # set to true to show RSS icon
