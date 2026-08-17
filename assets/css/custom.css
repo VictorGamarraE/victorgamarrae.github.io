@@ -1,8 +1,19 @@
-/* Override al-folio navbar text-transform to allow capitalized titles */
+/* Override al-folio navbar text-transform */
 .navbar .nav-item .nav-link {
   text-transform: none !important;
 }
 
 .navbar-brand {
   text-transform: none !important;
+}
+
+/* Capitalize section headings on about page */
+.news h2,
+.news h3,
+.selected-papers h2,
+.selected-papers h3,
+#news h2,
+#selected-publications h2,
+.post-list h2 {
+  text-transform: capitalize !important;
 }
