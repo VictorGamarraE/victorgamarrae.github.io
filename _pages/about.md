@@ -30,7 +30,7 @@ I am a PhD Candidate in Economics at Cornell University. My research lies at the
 
 Before Cornell, I received a Master of Public Policy from the University of Chicago and a B.A. in Economics from the Pontificia Universidad Católica del Perú (PUCP), where I am currently an adjunct faculty member. I have also held research positions at the University of Chicago and ETH Zurich, and have provided consulting services to the World Bank and the Inter-American Development Bank.
 
-My work has been published in the *Review of Development Economics*, *Environment and Development Economics*, and *Extractive Industries and Society*.
+My work has been published in the _Review of Development Economics_, _Environment and Development Economics_, and _Extractive Industries and Society_.
 
 **Email:** vjg34@cornell.edu (academic) · victor.gamarrae@gmail.com (consulting)
 

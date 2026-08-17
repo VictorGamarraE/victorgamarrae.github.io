@@ -15,11 +15,11 @@ My research lies at the intersection of Development Economics and Political Econ
 
 **The Cost of Going Local: Politicians' Career Incentives in Weak Institutional Settings**
 with Jose Carlos Orihuela (PUCP) and Gonzalo Contreras (PUCP)
-*Presented at RISE-SASE 2025*
+_Presented at RISE-SASE 2025_
 
 **Community-Based Aid and Violence: Weakening Transnational Gangs Through Immigrant Support**
 with Rafael Matos (Caltech)
-*Presented at MPSA 2026*
+_Presented at MPSA 2026_
 
 **Political Connections and Public Procurement**
 with Valeria Moromizato (Northwestern)
