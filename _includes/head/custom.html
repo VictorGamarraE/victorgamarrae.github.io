@@ -1,15 +1,18 @@
 <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
 <script>
-  // Force dark mode by default
-  if (!localStorage.getItem("theme")) {
-    localStorage.setItem("theme", "dark");
-  }
-  if (localStorage.getItem("theme") === "dark") {
-    document.documentElement.setAttribute("data-theme", "dark");
-  }
+  // Force dark mode - try all possible al-folio dark mode mechanisms
+  localStorage.setItem("theme", "dark");
+  localStorage.setItem("darkMode", "true");
+  document.documentElement.setAttribute("data-theme", "dark");
+  document.documentElement.setAttribute("data-bs-theme", "dark");
+  document.documentElement.classList.add("dark");
 
   document.addEventListener("DOMContentLoaded", function () {
-    // Remove search icon and dark mode toggle from navbar
+    document.body.setAttribute("data-theme", "dark");
+    document.body.classList.add("dark-mode");
+    document.body.classList.add("dark");
+
+    // Remove search and dark mode toggle from navbar
     var toRemove = [
       document.getElementById("search-icon"),
       document.getElementById("search-toggle"),
@@ -24,7 +27,6 @@
       }
     });
 
-    // Also hide any nav li containing magnifying glass or moon icons
     document.querySelectorAll(".navbar li").forEach(function (li) {
       if (li.querySelector(".fa-magnifying-glass, .fa-search, .fa-moon, .fa-sun")) {
         li.remove();
