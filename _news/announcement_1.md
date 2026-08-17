@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2025-11-01 00:00:00-0400
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Presented "The Cost of Going Local: Politicians' Career Incentives in Weak Institutional Settings" at RISE-SASE 2025.
