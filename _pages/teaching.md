@@ -13,4 +13,4 @@ I advise undergraduate and master's students at the Pontificia Universidad Cató
 
 If you are a PUCP student interested in working with me, you can schedule a 30-minute meeting using the link below.
 
-[**Schedule a meeting with Victor**](CALENDAR_LINK_HERE){:target="\_blank"}
+[**Schedule a meeting with Victor**](https://calendar.app.google/jyXvZ6ZEyiGeNyt8A){:target="\_blank"}
