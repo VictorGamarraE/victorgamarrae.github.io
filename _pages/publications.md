@@ -14,7 +14,7 @@ My research lies at the intersection of Development Economics and Political Econ
 ## Working Papers
 
 <div class="publications">
-{% bibliography --query @unpublished %}
+{% bibliography --file working_papers %}
 </div>
 
 ---
@@ -22,5 +22,5 @@ My research lies at the intersection of Development Economics and Political Econ
 ## Published Papers
 
 <div class="publications">
-{% bibliography --query @article %}
+{% bibliography --file papers %}
 </div>
