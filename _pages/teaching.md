@@ -2,14 +2,15 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Course materials, schedules, and resources for classes taught.
+description:
 nav: true
 nav_order: 7
-calendar: true
 ---
 
-This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
+## Thesis Advising — PUCP
 
-{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
+I advise undergraduate and master's students at the Pontificia Universidad Católica del Perú (PUCP) on their thesis research, with a focus on applied quantitative methods in economics and public policy.
 
-{% include courses.liquid %}
+If you are a PUCP student interested in working with me, you can schedule a 30-minute meeting using the link below.
+
+[**Schedule a meeting with Victor**](CALENDAR_LINK_HERE){:target="\_blank"}

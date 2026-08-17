@@ -10,6 +10,10 @@ I offer quantitative research consulting for academic and policy institutions. I
 
 I also provide methodological support for graduate students in economics and related fields in Peru.
 
-For inquiries, please reach out by email:
+For inquiries, please reach out by email: **victor.gamarrae@gmail.com**
 
-**victor.gamarrae@gmail.com**
+---
+
+Ofrezco asesoría en investigación cuantitativa para estudiantes de maestría en economía, administración pública, administración de negocios y programas afines en el Perú.
+
+Para consultas, escríbeme a: **victor.gamarrae@gmail.com**
