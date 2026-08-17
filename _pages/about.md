@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: PhD Candidate in Economics · <a href="https://economics.cornell.edu/" target="_blank">Cornell University</a>
 

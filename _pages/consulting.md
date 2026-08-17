@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /consulting/
-title: consulting
+title: Consulting
 nav: true
 nav_order: 3
 ---
