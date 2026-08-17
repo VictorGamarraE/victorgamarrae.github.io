@@ -6,8 +6,7 @@
 .navbar .search,
 li.search,
 .navbar li:has(.fa-magnifying-glass),
-.navbar li:has(kbd),
-.navbar kbd {
+.navbar li:has(kbd) {
   display: none !important;
 }
 
