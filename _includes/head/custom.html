@@ -1,1 +1,27 @@
 <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    // Remove search icon and dark mode toggle from navbar
+    var toRemove = [
+      document.getElementById("search-icon"),
+      document.getElementById("search-toggle"),
+      document.getElementById("dark-mode-toggle"),
+      document.querySelector("[data-toggle='search']"),
+      document.querySelector(".navbar-toggler[data-bs-target='#search']"),
+    ];
+    toRemove.forEach(function (el) {
+      if (el) {
+        var li = el.closest("li") || el.parentElement;
+        if (li) li.remove();
+        else el.remove();
+      }
+    });
+
+    // Also hide any nav li containing magnifying glass or moon icons
+    document.querySelectorAll(".navbar li").forEach(function (li) {
+      if (li.querySelector(".fa-magnifying-glass, .fa-search, .fa-moon, .fa-sun")) {
+        li.remove();
+      }
+    });
+  });
+</script>
