@@ -1,5 +1,13 @@
 <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
 <script>
+  // Force dark mode by default
+  if (!localStorage.getItem("theme")) {
+    localStorage.setItem("theme", "dark");
+  }
+  if (localStorage.getItem("theme") === "dark") {
+    document.documentElement.setAttribute("data-theme", "dark");
+  }
+
   document.addEventListener("DOMContentLoaded", function () {
     // Remove search icon and dark mode toggle from navbar
     var toRemove = [
@@ -7,7 +15,6 @@
       document.getElementById("search-toggle"),
       document.getElementById("dark-mode-toggle"),
       document.querySelector("[data-toggle='search']"),
-      document.querySelector(".navbar-toggler[data-bs-target='#search']"),
     ];
     toRemove.forEach(function (el) {
       if (el) {
